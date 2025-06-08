@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pacific Cider Co</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-image: url('https://your-hero-image.jpg'); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 60px;
+      margin: 0;
+    }
+    header p {
+      font-size: 24px;
+      margin: 10px 0 0;
+    }
+    nav {
+      background: #2e2e2e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+    }
+    footer {
+      background: #2e2e2e;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Pacific Cider Co</h1>
+  <p>Crafted by the Coast. Made with Love.</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#ciders">Our Ciders</a>
+  <a href="#visit">Visit Us</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>At Pacific Cider Co, we blend West Coast apples with a spirit of adventure. Family-owned and nature-driven, we craft our cider sustainably with only the finest ingredients.</p>
+</section>
+
+<section id="ciders" class="products">
+  <h2>Our Ciders</h2>
+  <p>Explore our refreshing lineup:</p>
+  <ul>
+    <li>🌊 Coastal Dry – Crisp, tart, and refreshing</li>
+    <li>🍎 Golden Harvest – Smooth with a hint of spice</li>
+    <li>🌺 Wildflower Honey – Floral, lightly sweet</li>
+  </ul>
+</section>
+
+<section id="visit">
+  <h2>Visit Us</h2>
+  <p>Come by our orchard and tasting room in Sonoma County, California. Enjoy a pint, take a tour, and experience cider at the source.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email us: hello@pacificcider.co</p>
+  <p>Follow us on Instagram: <a href="https://instagram.com/pacificciderco" target="_blank">@pacificciderco</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Pacific Cider Co. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
